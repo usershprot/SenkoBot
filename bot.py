@@ -17,7 +17,7 @@ from aiogram.types import (
     InputTextMessageContent
 )
 
-API_TOKEN = "YOUR_BOT_TOKEN"  # ← сюда вставь токен от BotFather
+API_TOKEN = "7922157529:AAGbfMgER0jagKEBXwdX6yaE0q2IihDW5N0"  # ← сюда вставь токен от BotFather
 DATA_FILE = "search_data.json"
 
 bot = Bot(token=API_TOKEN)
