@@ -1,4 +1,9 @@
-import asyncio import aiohttp import json import os import hashlib from bs4 import BeautifulSoup from aiogram import Bot, Dispatcher, types from aiogram.filters import CommandStart, Command from aiogram.types import ( InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery, InlineQuery, InlineQueryResultArticle, InputTextMessageContent )
+import asyncio 
+import aiohttp 
+import json 
+import os 
+import hashlib 
+from bs4 import BeautifulSoup from aiogram import Bot, Dispatcher, types from aiogram.filters import CommandStart, Command from aiogram.types import ( InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery, InlineQuery, InlineQueryResultArticle, InputTextMessageContent )
 
 API_TOKEN = "7922157529:AAGbfMgER0jagKEBXwdX6yaE0q2IihDW5N0"  # Заменить на токен от BotFather DATA_FILE = "search_data.json"
 
